@@ -1,0 +1,1 @@
+mencoder film_source.mpg -ofps 15 -ovc lavc -lavcopts vcodec=flv:acodec=mp3 -vop scale=320:240 -ffourcc FLV1 -oac mp3lame -o film_cible.flv

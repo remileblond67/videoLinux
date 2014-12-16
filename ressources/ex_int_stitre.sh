@@ -1,0 +1,1 @@
+mencoder -sub fichiersoustitres.srt -fontconfig -font Arial -subfont-text-scale 3 -utf8 -oac mp3lame -lameopts cbr=128 -ovc xvid -xvidencopts bitrate=900 fichier_video_source.avi -o fichier_video_final_vostfr.avi

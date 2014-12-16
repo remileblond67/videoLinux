@@ -1,0 +1,1 @@
+mencoder film_source.mpg -ofps 25 -ovc lavc -lavcopts vcodec=mpeg4:vbitrate=2000 -vf scale=720:576 -oac mp3lame -lameopts cbr:br=128 -o film_cible.avi

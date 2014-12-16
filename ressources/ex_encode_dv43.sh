@@ -1,0 +1,1 @@
+mencoder -vf scale=720:576 -ovc libdv -aspect 4:3 -oac pcm video_source.mpg -o video_dv_sortie.avi
